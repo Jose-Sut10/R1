@@ -63,3 +63,17 @@
         display: none;
     }
 }
+
+@media screen and (767px <= width < 1024px){
+    .formulario__inicioSecion--titulos{
+        font-size: 1.9rem;
+    }
+    .formulario__inicioSecion--input{
+        height: 4.2rem;
+        padding: 1rem;
+        font-size: 1.75rem;
+    }
+    .iconoCerrar{
+        font-size: 3rem;
+    }
+}
