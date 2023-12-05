@@ -54,7 +54,15 @@
 }
 
 .btnIngresar{
-    width: 80%;
+    width: 90%;
+    height: 4rem;
+    background-color: #f1b321;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    transition: all 0.4s ease;
+    border: none;
     font-weight: bold;
 } 
 

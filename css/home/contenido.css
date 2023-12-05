@@ -1,0 +1,36 @@
+.contenido{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.contenido__contenedor{
+    width: 100vw;
+    height: 100%;
+}
+
+.contenido__contenedor--principal{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenHome{
+    width: 20rem;
+}
+
+.textoImagen{
+    text-align: center;
+    font-size: 1.55rem;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    color: #f1b321;
+    margin-top: 1.5rem;
+}
+
+.imagenHome:hover{
+    cursor: pointer;
+    transform: scale(1.14);
+}
