@@ -1,3 +1,7 @@
+@import url("./formulario/contenidoFormulario.css");
+@import url("./formulario/formulario.css");
+@import url("./formulario/passwordIcon.css");
+
 .contenido__contenedor--imagen{
     display: flex;
     flex-direction: column;
