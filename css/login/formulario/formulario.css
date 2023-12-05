@@ -57,3 +57,9 @@
     width: 80%;
     font-weight: bold;
 } 
+
+@media screen and (min-width: 1024px){
+    .cajaIconoCerrar{
+        display: none;
+    }
+}
