@@ -13,7 +13,7 @@ const validarUsuario = (listaUsuarios)=>{
 
         if(acceso){
             spanError.classList.add('passwordError');
-            window.location.href = '/assets/pages/home/homeAmin.html';
+            window.location.href = '/assets/pages/home/home.html';
         }else{
             console.log("Contraseña incorrecta");
             spanError.classList.add('inicioSecion__password--error');
