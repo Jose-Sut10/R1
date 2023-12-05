@@ -1,0 +1,60 @@
+@import url("../reset.css");
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #ec008c;
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+    background: linear-gradient(to right, #fc6767, #ec008c);
+    overflow-y: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado{
+    padding: 40px 0 20px 0;
+}
+
+.encabezado__contenedor,.contenido__contenedor{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.custom-shape-divider-top-1701703641 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1701703641 svg {
+    position: relative;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 73px;
+}
+
+.custom-shape-divider-top-1701703641 .shape-fill {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.encabezado__contenedor--logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 2.5rem;
+}
+
+.imagenLogo{
+    width: 5rem;
+    margin-right: .5rem;
+}
+
+.tituloLogo{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
