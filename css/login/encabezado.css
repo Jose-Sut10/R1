@@ -83,7 +83,7 @@ body{
 
 @media screen and (767px <= width < 1024px){
     .imagenLogo{
-        width: 7rem;
+        width: 4.5rem;
     }
     .tituloLogo{
         font-size: 1.7rem;

@@ -37,6 +37,7 @@
     border-radius: 12px;
     margin-bottom: 1.2rem;
     font-size: 1.4rem;
+    font-weight: bold;
     transition: all 0.4s ease;
     border: none;
 }
@@ -93,7 +94,7 @@
 
 @media screen and (767px <= width < 1024px){
     .contenedorImagen--titulo{
-        font-size: 3.2rem;
+        font-size: 4rem;
     }
     .imagenLogeo{
         width: 22rem;
@@ -101,6 +102,6 @@
     .botonLogeo{
         width: 45%;
         height: 5rem;
-        font-size: 1.8rem;
+        font-size: 2.15rem;
     }
 }

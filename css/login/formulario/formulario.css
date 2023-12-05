@@ -90,4 +90,9 @@
     .iconoCerrar{
         font-size: 3rem;
     }
+    .btnIngresar{
+        width: 55%;
+        height: 5rem;
+        font-size: 1.8rem;
+    }
 }
