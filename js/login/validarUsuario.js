@@ -1,6 +1,7 @@
 const validarUsuario = (listaUsuarios)=>{
     const formularioLogin = document.querySelector('[data-formularioLogin]');
     const spanError = document.getElementsByClassName('inicioSecion__password--error')[0];
+    const inputPassword = document.querySelector('[data-inputPassword]')
 
     formularioLogin.addEventListener('submit',(e)=>{
         e.preventDefault();
@@ -15,9 +16,9 @@ const validarUsuario = (listaUsuarios)=>{
             spanError.classList.add('passwordError');
             window.location.href = '/assets/pages/home/home.html';
         }else{
-            console.log("Contraseña incorrecta");
             spanError.classList.add('inicioSecion__password--error');
             spanError.classList.remove('passwordError');
+            inputPassword.classList.add('passwordError--input')
         }
     });
 };

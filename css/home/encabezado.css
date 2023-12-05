@@ -8,9 +8,13 @@
 
 body{
     min-height: 100vh;
-    background: #ec008c;
-    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
-    background: linear-gradient(to right, #fc6767, #ec008c);
+    background: rgb(59, 63, 66);
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url('https://img.freepik.com/fotos-premium/fondo-cocina-comida-italiana-pasta_82893-20885.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(62, 161, 219, 1);
+    background: -webkit-linear-gradient( 110deg, rgba(62, 161, 219, 1) 12%, rgba(93, 52, 236, 1) 100.2% );
+    background-image: linear-gradient( 110deg, rgba(62, 161, 219, 1) 12%, rgba(93, 52, 236, 1) 100.2% ); */
     overflow-y: hidden;
     font-family: 'Roboto', sans-serif;
 }

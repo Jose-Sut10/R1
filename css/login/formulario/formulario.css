@@ -14,7 +14,7 @@
 }
 
 .formulario__inicioSecion--titulos{
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -54,17 +54,23 @@
 }
 
 .btnIngresar{
-    width: 90%;
+    width: 65%;
     height: 4rem;
     background-color: #f1b321;
-    padding: 1rem;
+    color: #481e00;
+    padding: 13px 30px;
     border-radius: 12px;
     margin-bottom: 1.2rem;
-    font-size: 1.4rem;
-    transition: all 0.4s ease;
+    font-size: 1.5rem;
     border: none;
+    transition: 0.2s;
     font-weight: bold;
 } 
+
+.btnIngresar:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 5px #fff, 0 0 0 10px #f1b321;
+}
 
 @media screen and (min-width: 1024px){
     .cajaIconoCerrar{
