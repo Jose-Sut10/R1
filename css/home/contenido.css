@@ -34,3 +34,22 @@
     cursor: pointer;
     transform: scale(1.14);
 }
+
+@media screen and (767px <= width < 1024px){
+    .imagenHome{
+        width: 40rem;
+    }
+    .textoImagen{
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .imagenHome{
+        width: 36rem;
+    }
+
+    .textoImagen{
+        font-size: 2.8rem;
+    }
+}
